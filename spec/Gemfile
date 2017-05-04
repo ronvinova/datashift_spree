@@ -6,7 +6,7 @@ source 'https://rubygems.org'
 # DEFINE VERSIONS YOU WANT TO TEST AGAINST HERE
 # THIS SHOULD BASICALLY REPLICATE WHAT IS IN THE SANDBOX GEMFILE
 
-gem 'rails', '4.1.8'
+gem 'rails', '5.0.2'
 
 #DATASHIFT TESTING
 #
@@ -66,7 +66,7 @@ end
 # For rspec you  may need to add them in here or you'll get missing Spree constants
 #TODO - update  sandbox code so it automatically adds Spree gems in here
 
-spree_version = '2-3-stable'
+spree_version = '3.2.0'
 
 gem 'spree', github: 'spree/spree', branch: spree_version
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => spree_version
